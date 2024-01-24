@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // type-graphql이 es2018 spec에 의존하고 있다
+    "emitDecoratorMetadata": true, // decorator를 사용하기 위해 true로 설정
+    "experimentalDecorators": true, // decorator를 사용하기 위해 true로 설정
+    "moduleResolution": "node"
+  }
+}
